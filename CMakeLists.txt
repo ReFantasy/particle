@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(particle)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 
