@@ -1,0 +1,10 @@
+^F:\SIMULATION\PARTICLE\BUILD\CMAKEFILES\AC131C083B5E1DF6D984395C0D204E02\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SF:/Simulation/particle -BF:/Simulation/particle/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/Simulation/particle/build/particle.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
