@@ -30,5 +30,5 @@ ELSEIF (UNIX)
 ENDIF ()
 
 
-add_executable(particle main.cpp)
+add_executable(particle main.cpp helper.h helper.cpp)
 
